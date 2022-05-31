@@ -1,0 +1,69 @@
+arubr@LAPTOP-V6FQAR88 MINGW64 /f
+$ mkdir assignment
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f
+$ cd assignment
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ mkdir source
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ mkdir destination
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ cd source
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/source
+$ cat >> index.txt
+Hi ,I am from functionup and we loving to learn.
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/source
+$ cd ..
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ ls
+destination/  source/
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ cp source/index.txt destination
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ cd destination
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$ ls
+index.txt
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$ rm index.txt
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$ ls
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$ cd ..
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ ls
+destination/  source/
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ mv source/index.txt destination
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ cd source
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/source
+$ ls
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/source
+$ cd ..
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment
+$ cd destination
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$ ls
+index.txt
+
+arubr@LAPTOP-V6FQAR88 MINGW64 /f/assignment/destination
+$
